@@ -1,0 +1,80 @@
+﻿{
+  "@@locale": "en",
+  "taskMaster": "TaskMaster",
+  "counterAppBarTitle": "Counter",
+  "listeTachesTitre": "My Tasks",
+  "listeTachesTerminees": "Completed",
+  "listeTachesEnCours": "Pending",
+  "listeTachesAjouter": "Add Task",
+  "listeTachesModifier": "Edit",
+  "listeTachesSupprimer": "Delete",
+  "listeTachesEcheance": "Due: {date}",
+  "@listeTachesEcheance": {
+    "description": "Label displaying the due date for a task",
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "listeTachesPriorite": "{priorite} Priority",
+  "@listeTachesPriorite": {
+    "description": "Label displaying the priority of a task in the list",
+    "placeholders": {
+      "priorite": {
+        "type": "String"
+      }
+    }
+  },
+  "listeTachesChargement": "Loading tasks...",
+  "listeTachesVide": "No tasks to display.",
+  "listeTachesErreur": "Unable to load tasks.",
+  "listeTachesChargerPlus": "Load more",
+  "listeTachesFin": "You reached the end of the list.",
+  "prioriteElevee": "High",
+  "prioriteMoyenne": "Medium",
+  "prioriteFaible": "Low",
+  "editionTacheTitrePage": "New Task",
+  "editionTacheTitreChamp": "Task Title",
+  "editionTacheHintTitre": "Enter task title",
+  "editionTacheDescriptionChamp": "Description",
+  "editionTacheHintDescription": "Enter task description",
+  "editionTacheDateChamp": "Due Date",
+  "editionTacheHintDate": "YYYY-MM-DD",
+  "editionTachePrioriteChamp": "Priority Level",
+  "editionTacheEnregistrer": "Save",
+  "editionTacheAnnuler": "Cancel",
+  "erreurTitreObligatoire": "Title is required.",
+  "erreurDescriptionObligatoire": "Description is required.",
+  "erreurDateInvalide": "Enter a valid date (YYYY-MM-DD).",
+  "erreurPrioriteObligatoire": "Priority is required.",
+  "editionTacheSoumission": "Saving task...",
+  "detailTacheTitrePage": "Task Details",
+  "detailTacheEcheance": "Due Date: {date}",
+  "@detailTacheEcheance": {
+    "description": "Label describing the due date in task details",
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "detailTachePriorite": "Priority: {priorite}",
+  "@detailTachePriorite": {
+    "description": "Label describing the priority in task details",
+    "placeholders": {
+      "priorite": {
+        "type": "String"
+      }
+    }
+  },
+  "detailTacheStatutLabel": "Mark as Complete",
+  "detailTacheModifier": "Edit Task",
+  "detailTacheSupprimer": "Delete Task",
+  "detailTacheBasculerChargement": "Updating task...",
+  "detailTacheErreur": "Unable to update the task.",
+  "confirmationSuppressionTitre": "Delete Task",
+  "confirmationSuppressionMessage": "Are you sure you want to delete this task?",
+  "confirmationSuppressionConfirmer": "Delete",
+  "confirmationSuppressionAnnuler": "Cancel"
+}

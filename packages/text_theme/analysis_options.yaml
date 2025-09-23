@@ -1,0 +1,14 @@
+include: package:very_good_analysis/analysis_options.5.1.0.yaml
+linter:
+  rules:
+    public_member_api_docs: false
+analyzer:
+  errors:
+    use_setters_to_change_properties: ignore
+  exclude:
+    - lib/generated/**
+    - lib/**.g.dart
+    - lib/**.inject.dart
+    - lib/**.inject.summary
+    - test/**.g.dart
+    - test/**.inject.dart

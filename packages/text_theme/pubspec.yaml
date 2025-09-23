@@ -1,0 +1,22 @@
+name: text_theme
+description: text_theme
+version: 0.1.0+1
+publish_to: none
+
+environment:
+  sdk: ^3.4.0
+  flutter: ^3.22.0
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  format_ecran_package:
+    path: ../format_ecran_package
+  shimmer: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.3
+  very_good_analysis: ^5.1.0

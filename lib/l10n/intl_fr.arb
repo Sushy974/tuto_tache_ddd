@@ -1,0 +1,80 @@
+﻿{
+  "@@locale": "fr",
+  "taskMaster": "TaskMaster",
+  "counterAppBarTitle": "Compteur",
+  "listeTachesTitre": "Mes tâches",
+  "listeTachesTerminees": "Terminées",
+  "listeTachesEnCours": "En cours",
+  "listeTachesAjouter": "Ajouter une tâche",
+  "listeTachesModifier": "Modifier",
+  "listeTachesSupprimer": "Supprimer",
+  "listeTachesEcheance": "Échéance : {date}",
+  "@listeTachesEcheance": {
+    "description": "Libellé affichant la date d'échéance d'une tâche",
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "listeTachesPriorite": "Priorité : {priorite}",
+  "@listeTachesPriorite": {
+    "description": "Libellé affichant la priorité d'une tâche dans la liste",
+    "placeholders": {
+      "priorite": {
+        "type": "String"
+      }
+    }
+  },
+  "listeTachesChargement": "Chargement des tâches...",
+  "listeTachesVide": "Aucune tâche à afficher.",
+  "listeTachesErreur": "Impossible de charger les tâches.",
+  "listeTachesChargerPlus": "Charger plus",
+  "listeTachesFin": "Vous avez atteint la fin de la liste.",
+  "prioriteElevee": "Élevée",
+  "prioriteMoyenne": "Moyenne",
+  "prioriteFaible": "Faible",
+  "editionTacheTitrePage": "Nouvelle tâche",
+  "editionTacheTitreChamp": "Titre de la tâche",
+  "editionTacheHintTitre": "Saisir le titre de la tâche",
+  "editionTacheDescriptionChamp": "Description",
+  "editionTacheHintDescription": "Saisir la description de la tâche",
+  "editionTacheDateChamp": "Date d'échéance",
+  "editionTacheHintDate": "AAAA-MM-JJ",
+  "editionTachePrioriteChamp": "Niveau de priorité",
+  "editionTacheEnregistrer": "Enregistrer",
+  "editionTacheAnnuler": "Annuler",
+  "erreurTitreObligatoire": "Le titre est obligatoire.",
+  "erreurDescriptionObligatoire": "La description est obligatoire.",
+  "erreurDateInvalide": "Saisissez une date valide (AAAA-MM-JJ).",
+  "erreurPrioriteObligatoire": "La priorité est obligatoire.",
+  "editionTacheSoumission": "Enregistrement de la tâche...",
+  "detailTacheTitrePage": "Détail de la tâche",
+  "detailTacheEcheance": "Date d'échéance : {date}",
+  "@detailTacheEcheance": {
+    "description": "Libellé décrivant la date d'échéance dans le détail",
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "detailTachePriorite": "Priorité : {priorite}",
+  "@detailTachePriorite": {
+    "description": "Libellé décrivant la priorité dans le détail",
+    "placeholders": {
+      "priorite": {
+        "type": "String"
+      }
+    }
+  },
+  "detailTacheStatutLabel": "Marquer comme terminée",
+  "detailTacheModifier": "Modifier la tâche",
+  "detailTacheSupprimer": "Supprimer la tâche",
+  "detailTacheBasculerChargement": "Mise à jour en cours...",
+  "detailTacheErreur": "Impossible de mettre à jour la tâche.",
+  "confirmationSuppressionTitre": "Supprimer la tâche",
+  "confirmationSuppressionMessage": "Voulez-vous vraiment supprimer cette tâche ?",
+  "confirmationSuppressionConfirmer": "Supprimer",
+  "confirmationSuppressionAnnuler": "Annuler"
+}

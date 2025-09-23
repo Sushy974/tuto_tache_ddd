@@ -1,0 +1,4 @@
+# melos_managed_dependency_overrides: format_ecran_package
+dependency_overrides:
+  format_ecran_package:
+    path: ../format_ecran_package
